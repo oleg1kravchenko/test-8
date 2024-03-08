@@ -1,0 +1,317 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+    .col-main {
+        margin-left: 20px;
+        width: 72%;
+    }
+    .table-wrap table {
+        font-size: 13px;
+    }
+    .table-wrap table th, 
+    .table-wrap table td {
+        padding: 12px 11px;
+    }
+    .item-portfolio__image {
+        height: 230px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .header {
+        font-size: 13px;
+        padding: 11px 0;
+    }
+    .title-header {
+        font-size: 16px;
+    }
+    .menu li {
+        margin-right: 30px;
+    }
+    .btn-header {
+        margin: 0 25px;
+    }
+    .form-block {
+        padding-top: 35px;
+        padding-bottom: 45px;
+    }
+    .title-main {
+        font-size: 28px;
+    }
+    .form-block .title-main {
+        margin-bottom: 20px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .item-form select, 
+    .item-form textarea, 
+    .item-form input {
+        height: 50px;
+        padding: 0 14px;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+    .item-form_select::after {
+        height: 50px;
+        background-size: 18px;
+        border-radius: 10px;
+    }
+    .item-form {
+        margin-bottom: 20px;
+    }
+    .btn-main {
+        height: 45px;
+        padding: 0 20px;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+    .item-form textarea {
+        height: 125px;
+        padding-top: 14px;
+    }
+    .title-small {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+    .header__buttons {
+        margin-left: 15px;
+    }
+    .col-main {
+        margin-left: 10px;
+        width: 65%;
+    }
+    .table-wrap {
+        padding-bottom: 10px;
+        overflow: auto;
+    }
+    .table-wrap table {
+        width: 790px;
+    }
+    .table-wrap::-webkit-scrollbar {
+        -webkit-appearance: none;
+      }
+      .table-wrap::-webkit-scrollbar:vertical {
+        width: 5px;
+      }
+      .table-wrap::-webkit-scrollbar:horizontal {
+        height: 5px;
+      }
+      .table-wrap::-webkit-scrollbar-thumb {
+        background-color: #121417;
+        border-radius: 10px;
+      }
+      .table-wrap::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: #1f79d6;
+    }
+    .item-portfolio__image {
+        height: 165px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .header__wrapper {
+        flex-wrap: wrap;
+    }
+    .menu li {
+        margin-right: 20px;
+    }
+    .menu {
+        margin-right: auto;
+        display: none;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .wrapper {
+        overflow: hidden;
+    }
+    .content-wrap {
+        flex-wrap: wrap;
+    }
+    .content-main {
+        width: 100%;
+    }
+    .item-user {
+        padding-right: 0;
+        flex-wrap: wrap;
+    }
+    .item-user__content {
+        padding-right: 5px;
+        flex: 1;
+    }
+    .item-user__image {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    .item-user .descr-main {
+        font-size: 13px;
+    }
+    .content-sidebar {
+        padding: 0;
+        width: 100%;
+        order: -1;
+        padding-top: 20px;
+        flex: none;
+    }
+    .content-sidebar .title-small {
+        margin-bottom: 16px;
+    }
+    .footer {
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    .hidden-mobile {
+        display: none !important;
+    }
+    .radios-wrap {
+        margin: 0 -5px;
+        max-width: 310px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .radios-wrap .item-radio {
+        padding: 0 5px;
+        width: 50%;
+    }
+    .radios-wrap .item-radio label span {
+        max-width: 160px;
+    }
+    .footer__menu {
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .row-main {
+        display: block;
+    }
+    .section-main {
+        padding-top: 20px;
+    }
+    .col-sidebar {
+        padding-bottom: 20px;
+    }
+    .col-main {
+        width: 100%;
+        margin: 0;
+    }
+    .form-search {
+        display: none;
+    }
+    .header__buttons + .btn-user {
+        margin-left: 15px;
+    }
+    .col-sidebar_task {
+        display: block;
+        min-height: initial;
+    }
+    .tabs {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .item-statistic {
+        padding: 8px;
+    }
+    .item-statistic__value {
+        font-size: 20px;
+    }
+    .title-middle_profile {
+        margin-top: 22px;
+        margin-bottom: 12px;
+    }
+    .item-portfolio {
+        margin: 10px 0;
+    }
+    .item-user.item-user_recomend {
+        margin-top: 18px;
+    }
+    .descr-main {
+        font-size: 13px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .title-main {
+        font-size: 24px;
+    }
+    .item-check label span {
+        font-size: 13px;
+        padding: 3px 13px;
+        border-radius: 10px;
+    }
+    .item-check {
+        margin: 10px;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    .form-message .item-form input {
+        padding-right: 141px;
+    }
+    .input-upload {
+        right: 100px;
+    }
+    .table-wrap {
+        margin-right: -15px;
+    }
+    .row-page_portfolio {
+        display: block;
+    }
+    .row-page_portfolio > div {
+        width: 100%;
+    }
+    .item-portfolio__image {
+        height: 288px;
+    }
+    .item-portfolio {
+        margin-bottom: 16px;
+    }
+    .wrap-testimonals {
+        padding-top: 5px;
+    }
+    .item-testimonial {
+        margin-bottom: 20px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .show-mobile {
+        display: none !important;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
